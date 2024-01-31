@@ -5,6 +5,9 @@ router = APIRouter(prefix="/api")
 
 
 """Exemplo de uso
+"""
+
+
 @router.get("/")
 def hello_world():
     res = []
@@ -14,4 +17,3 @@ def hello_world():
         res = driver.select_from_soup("ul.ul-1 a span")
 
     return [x.text for x in res]
-"""
