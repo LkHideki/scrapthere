@@ -1,5 +1,5 @@
 from time import sleep
-from typing import Any, Literal
+from typing import Literal
 from bs4 import BeautifulSoup, ResultSet, Tag
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
